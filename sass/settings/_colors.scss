@@ -19,8 +19,9 @@ $color-green:                           #0DA05A;
 
 // Reassign literal variables to meaningful ones.
 $color-page-text:                       #6F6F6F !default;
+$color-page-link:                       $color-brand-quarternary !default;
 $color-page-heading:					#373737 !default;
-$color-page-background:                 $color-white;
+$color-page-background:                 $color-white !default;
 
 // UI
 $color-ui:								$color-page-text;
@@ -44,6 +45,9 @@ $color-toplinks-backgound:				$color-black;
 $color-header-border:                   $color-grey;
 $color-header-background:               $color-brand-secondary !default;
 
+// Callout
+$color-callout-background:              $color-brand-secondary !default;
+
 // Nav
 $color-nav:                             $color-grey-dark !default;
 $color-nav-background-active:           $color-brand-secondary !default;
@@ -56,6 +60,9 @@ $color-fact-primary:                    $color-brand-secondary !default;
 
 // Footer
 $color-footer-background:               $color-grey-dark !default;
+$color-footer-line:                     $color-grey-medium !default;
+$color-footer-line-secondary:           rgba($color-grey,0.2) !default;
+$color-footer-link-line:                rgba($color-grey,0.7) !default;
 $color-subfooter-background:            $color-black !default;
 
 // Icon

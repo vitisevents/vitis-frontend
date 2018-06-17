@@ -9,6 +9,9 @@ $base-spacing-unit:  				20px !default;
 $base-sidebar-width: 				200px !default;
 $base-sidebar-spacing: 				90px !default;
 
+// Banner
+$banner-padding:					60px !default;
+
 // Header
 $header-padding:	 				20px !default;
 
@@ -51,6 +54,13 @@ $site-width-medium:  1024px;
 $site-width-small:   720px;
 
 // Fonts
+$font-size-h1:       ($base-font-size * 3.5) !default;
+$font-size-h2:       ($base-font-size * 2.5) !default;
+$font-size-h3:       ($base-font-size * 2.0) !default;
+$font-size-h4:       ($base-font-size * 1.4) !default;
+$font-size-h5:       ($base-font-size * 1.2) !default;
+$font-size-h6:       ($base-font-size * 0.9) !default;
+
 $font-primary: 		'Open Sans' !default;
 $font-secondary: 	Bungee !default;
 $font-tertiary: 	Bonbon !default;

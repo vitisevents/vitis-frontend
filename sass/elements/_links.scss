@@ -1,9 +1,9 @@
 a{
-    color: $color-brand-secondary;
+    color:$color-page-link;
     text-decoration:none;
     @include transition(color .3s ease);
 
-    @include hocus() {
-        color:$color-brand-secondary;
+    @include hocus{
+        color:darken($color-page-link, 10%);
     }
 }

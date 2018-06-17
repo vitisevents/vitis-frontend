@@ -2,11 +2,11 @@ $footer-font-size : ($base-font-size*0.9);
 
 .page-footer{
 	background-color:$color-footer-background;
-    border-top:8px solid $color-grey-medium;
+    border-top:8px solid $color-footer-line;
 
     &__top{
         padding:20px 0;
-        border-bottom:1px solid $color-grey-medium;
+        border-bottom:1px solid $color-footer-line;
 
         .grid__item{
             margin:0;
@@ -83,7 +83,7 @@ $footer-font-size : ($base-font-size*0.9);
 
             @include respond(medium){
                 display:inline-block;
-                border-left:1px solid rgba($color-grey,0.7);
+                border-left:1px solid $color-footer-link-line;
             }
 
             &:first-child{
@@ -124,12 +124,12 @@ $footer-font-size : ($base-font-size*0.9);
 }
 
 .border-left{
-    border-top:1px solid rgba($color-grey,0.2);
+    border-top:1px solid $color-footer-line-secondary;
     padding-top:10px;
 
     @include respond(large){
         padding-top:0;
         border-top:none;
-        border-left:1px solid rgba($color-grey,0.2);
+        border-left:1px solid $color-footer-line-secondary;
     }
 }

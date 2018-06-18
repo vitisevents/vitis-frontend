@@ -2,7 +2,6 @@
 	position:relative;
 	min-height:550px;
 	padding:60px 20px;
-	text-align:center;
 
 	@include respond(mobile-only){
 		padding-top:40px;

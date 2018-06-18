@@ -36,7 +36,7 @@
 		@include respond(large){
 			display:inline-block;
 			border-bottom:none;
-			padding:23px 2px;
+			padding:$main-menu-item-padding 2px;
 		}
 
 		&:first-of-type{
@@ -82,7 +82,7 @@
 
 	&__link{
 		display:block;
-		color:$color-white;
+		color:$color-main-menu;
 		padding:10px 14px;
 		@include transition(background-color, .3s, ease);
 
@@ -94,10 +94,10 @@
 		&.-is-active{
 			color:$color-brand-primary;
 			text-decoration:underline;
-			background:$color-white;
+			background:currentColor;
 
 			@include respond(large){
-				color:$color-white;
+				color:$color-main-menu;
 				background:none;
 			}
 		}

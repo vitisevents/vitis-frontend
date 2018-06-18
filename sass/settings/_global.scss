@@ -14,12 +14,21 @@ $banner-padding:					60px !default;
 
 // Header
 $header-padding:	 				20px !default;
+$header-bar-height:     			32px !default;
+$header-height:         			81px !default;
+
+// To be changed once there is a new logo
+$logo-height:		 				45px !default;
+$logo-position:						($header-height / 2) - ($logo-height / 2);
+
+// Menu
+$main-menu-item-padding:			23px !default; 
+
+// Callout
+$callout-padding: 					($base-spacing-unit * 2) !default;
 
 // Button
 $btn-radius:						$base-font-size*3 !default;
-
-// Logo (To be changed once there is a new logo)
-$logo-height:		 				44px !default;
 
 // Menu
 $main-menu-toggle-width:    		25px;

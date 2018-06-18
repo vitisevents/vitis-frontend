@@ -1,6 +1,3 @@
-$header-bar-height:     32px;
-$header-height:         81px;
-
 .header-bar{
     position:relative;
     display:none;
@@ -81,8 +78,8 @@ $header-height:         81px;
 
 .page-head__logo{
     display:inline-block;
-    margin:14px 0 0 0;
-    height:48px;
+    margin:$logo-position 0 0 0;
+    height:$logo-height;
 
     img{
         display:block;

@@ -3,8 +3,8 @@
     "version": "0.0.1",
     "description": "Vitis Frontend",
     "repository": {
-      "type": "git",
-      "url": "git@github.com:vitisevents/vitis-frontend.git"
+        "type": "git",
+        "url": "git@github.com:vitisevents/vitis-frontend.git"
     },
     "author": "Mitch Jackson"
-}  
+}

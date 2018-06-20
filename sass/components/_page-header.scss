@@ -61,7 +61,7 @@
     }
 
     &.-inset:not(.affix){
-        background:none;
+        background:$color-header-background-start;
     }
 
     &__inner{

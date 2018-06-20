@@ -44,6 +44,7 @@ $color-toplinks-backgound:				$color-black;
 // Header
 $color-header-border:                   $color-grey;
 $color-header-background:               $color-brand-secondary !default;
+$color-header-background-start:         linear-gradient(to bottom, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 90%);
 
 // Callout
 $color-callout-background:              $color-brand-secondary !default;
